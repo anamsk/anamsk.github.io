@@ -1,0 +1,221 @@
+* {
+    text-align: center;   
+}
+
+body{
+    background-image: url(IA.jpg);
+    background-size: cover; 
+    font-family: 'Times New Roman', Times, serif;
+}
+  /* essas são as estilizações do menu de navegação*/
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+#menu li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+#menu li a:hover{
+    background-color:  rgb(145, 132, 199);
+}
+.destaque{
+    background-color:  rgb(110, 95, 175);
+}
+.destaque1{
+    background-color:  rgb(110, 95, 175);
+}
+.destaque2{
+    background-color:  rgb(110, 95, 175);
+}
+.destaque3{
+    background-color:  rgb(110, 95, 175);
+}
+  /* ainda estou familiarizando-me com as posições dos elementos, então fui adicionando elementos e vendo qual se alinhava na tela do live server*/
+div{
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 770px;
+    top: 230px;
+    bottom: 50px;
+    background: rgb(170, 156, 230);
+    width: 20%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    box-shadow: 10px 5px 5px rgb(94, 83, 149);
+ }
+ button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(120, 100, 180);
+    color: antiquewhite;
+    border: 0px;
+    box-shadow: 5px 5px 5px rgb(94, 83, 149); 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+ button a{
+    text-decoration: none;
+    color: antiquewhite;
+ }
+ button:hover{
+    background-color: rgb(136, 121, 182);
+ }
+ form{
+    padding: 0px;
+    margin: 0px;
+    
+ }
+ form label{
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+ form input{
+    width: 200px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(123, 112, 156); 
+}
+textarea{
+    width: 250px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(123, 112, 156); 
+}
+.contato{
+
+        text-align: center;
+        position: relative;
+        right: 150px;
+        left: 650px;
+        top: 225px;
+        bottom: 50px;
+        background: rgb(170, 156, 230);
+        width: 30%;
+        height: 360px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+        color:antiquewhite;
+        box-shadow: 10px 5px 5px rgb(94, 83, 149);
+ }
+     /* coloquei essas variações como 'about 1, about 2' para relembrar qual página eu estava estilizando. */
+ .about1{
+        float: left ;
+        text-align: center;
+        position: relative;
+        right: 0px;
+        left: 300px;
+        top: 250px;
+        bottom: 50px;
+        background:rgb(170, 156, 230);
+        width: 20%;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+        color:antiquewhite;
+        box-shadow: 10px 5px 5px rgb(94, 83, 149);
+ 
+ }
+ .about2{
+    float: left ;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 350px;
+    top: 250px;
+    bottom: 50px;
+    background: rgb(170, 156, 230);
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    box-shadow: 10px 5px 5px rgb(94, 83, 149);
+}
+hr{
+    width: 80px;
+}
+   /* a mesma explicação para essas variações, apenas para contextualizar*/
+.formação{
+    float: left ;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 250px;
+    top: 250px; 
+    bottom: 50px;
+    background:rgb(170, 156, 230);
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    box-shadow: 10px 5px 5px rgb(94, 83, 149);
+
+}
+.idiomas{
+    float: left ;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 330px;
+    top: 250px;
+    bottom: 50px;
+    background:rgb(170, 156, 230);
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    box-shadow: 10px 5px 5px rgb(94, 83, 149);
+}
+.cursos{
+    float: left ;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    left: 400px;
+    top: 250px;
+    bottom: 50px;
+    background:rgb(170, 156, 230);
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    box-shadow: 10px 5px 5px rgb(94,83,149);
+}
